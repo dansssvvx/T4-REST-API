@@ -1,0 +1,5 @@
+﻿METHOD : GET
+URL    : http://localhost:3000/tanaman/999
+STATUS : 404
+BODY   :
+{"error":{"pesan":"Tanaman dengan id 999 tidak ditemukan","kode":"TANAMAN_TIDAK_DITEMUKAN"}}

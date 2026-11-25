@@ -1,0 +1,25 @@
+@base = http://localhost:3000
+
+### Teks sambutan
+GET {{base}}/
+
+### Semua tanaman
+GET {{base}}/tanaman
+
+### Satu tanaman (id ada) -> 200
+GET {{base}}/tanaman/3
+
+### Satu tanaman (id tidak ada) -> 404
+GET {{base}}/tanaman/999
+
+### Hapus tanaman (berhasil) -> 204
+DELETE {{base}}/tanaman/5
+
+### Semua tanaman setelah delete (11 data)
+GET {{base}}/tanaman
+
+### Hapus tanaman yang sama lagi -> 404
+DELETE {{base}}/tanaman/5
+
+### Endpoint tidak dikenal -> 404
+GET {{base}}/film

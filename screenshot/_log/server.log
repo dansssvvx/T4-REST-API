@@ -1,0 +1,6 @@
+
+> t4-rest-api@1.0.0 dev
+> node --watch index.js
+
+Server berjalan di http://localhost:3000
+Failed running 'index.js'. Waiting for file changes before restarting...

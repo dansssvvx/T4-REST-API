@@ -1,0 +1,5 @@
+﻿METHOD : GET
+URL    : http://localhost:3000/tanaman/3
+STATUS : 200
+BODY   :
+{"data":{"id":3,"nama":"Peace Lily","namaIlmiah":"Spathiphyllum wallisii","jenis":"Bunga","harga":120000,"kebutuhanCahaya":"Rendah","beracun":true}}

@@ -1,0 +1,5 @@
+﻿METHOD : DELETE
+URL    : http://localhost:3000/tanaman/5
+STATUS : 404
+BODY   :
+{"error":{"pesan":"Tanaman dengan id 5 tidak ditemukan","kode":"TANAMAN_TIDAK_DITEMUKAN"}}

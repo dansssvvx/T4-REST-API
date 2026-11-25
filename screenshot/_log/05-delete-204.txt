@@ -1,0 +1,5 @@
+﻿METHOD : DELETE
+URL    : http://localhost:3000/tanaman/5
+STATUS : 204
+BODY   :
+

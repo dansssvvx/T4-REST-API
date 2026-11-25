@@ -1,0 +1,5 @@
+﻿METHOD : GET
+URL    : http://localhost:3000/
+STATUS : 200
+BODY   :
+Selamat datang di REST API Koleksi Tanaman Hias
